@@ -1,0 +1,25 @@
+version = 1
+
+[[analyzers]]
+name = "csharp"
+
+[[analyzers]]
+name = "shell"
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
+
+[[analyzers]]
+name = "go"
+
+  [analyzers.meta]
+  import_root = "github.com/alanz0u/tinode_server"
+
+[[analyzers]]
+name = "javascript"
